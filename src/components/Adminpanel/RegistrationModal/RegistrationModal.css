@@ -1,0 +1,84 @@
+
+
+.main_r{
+    display: flex;
+    color: black;
+
+}
+
+.firstandlast_r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastName_r{
+    width: 81%;
+}
+
+.firstName_r{
+    width: 95%;
+}
+
+.firstblock_r {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* background-color: rgb(1,142,108, 0.705); */
+  backdrop-filter: blur(0.5rem);
+
+}
+
+.birthinfo_r{
+    display: flex;
+    gap: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.region_r{
+    display: flex;
+    gap: 20px;
+}
+
+.secondblock_r{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(0.5rem);
+    /* background-color: rgb(247,186,24, 0.705); */
+}
+
+.submit_r{
+    margin-left: 40%;
+}

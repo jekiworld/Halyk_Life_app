@@ -1,0 +1,166 @@
+.leftblock_d {
+    width: 30vw;
+    background-color: white;
+    height: 93vh;
+    /* border: 1px solid black ; */
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.adminpanel_d {
+    width: 100%;
+    display: flex;
+}
+
+.contacts_d {
+    margin-top: 30px;
+}
+
+.chat_d {
+    margin-top: 40px;
+
+}
+
+.cont_d {
+    margin-top: 40px;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+
+.cont_d:hover {
+    background-color: rgba(153, 120, 32, 0.705);
+    cursor: pointer;
+
+}
+
+.cha_d {
+    margin-top: 40px;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+
+.cha_d:hover {
+    background-color: rgba(153, 120, 32, 0.705);
+    cursor: pointer;
+
+}
+
+.table_d {
+    margin-top: 40px;
+    padding: 10px 60px;
+    border-radius: 30px;
+
+}
+
+.table_d:hover {
+    background-color: rgba(153, 120, 32, 0.705);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(247, 186, 24, 0.705);
+    color: #fff;
+    /* Add any additional styles to highlight the active tab */
+}
+
+.rightblock_d {
+    display: flex;
+    width: 100%;
+    background-color: rgb(229, 235, 239);
+    justify-content: center;
+    align-items: center;
+}
+
+.insideblock_d {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.searchpanel_d {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    border-bottom: 4px solid rgb(229, 235, 239);
+    gap: 55rem;
+}
+
+.search_in_d {
+    margin-left: 30px;
+    margin-top: 6px;
+    height: 3vh;
+    width: 80%;
+    background-color: rgb(229, 235, 239);  
+}
+
+.but_d{
+    height: 3vh;
+    width: 9vw;
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.insins_d{
+    display: flex;
+    /* border: solid 1px black; */
+    width: 100%;
+    height: 95%;
+}
+
+.right_d{
+    /* border: solid 1px ; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.left_d{
+    /* border: solid 1px ; */
+    width: 50%;
+    border-right: 5px solid rgb(229, 235, 239);
+
+}
+
+
+.user-list-container_d {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.user-list_d {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list-item_d {
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.delete-button_d {
+    cursor: pointer;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 230px;
+}

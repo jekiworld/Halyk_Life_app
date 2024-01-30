@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-image: url('./background/background.jpg.jpg');
+  backdrop-filter: blur(0.5rem);
+
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* border: solid black; */
+}
+
+
